@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    font-family: "Inter";
+    margin: 0;
+}
+/* a{
+    display: block;
+    text-decoration: none;
+} */
+/* section{
+    width: 100%;
+} */
+/* section .container{
+    width: 1520px;
+    margin: 0px auto;
+} */
+
+/* Header Section Starts */
+header section{
+    background-color: #e8e7ec;
+    padding:0px 74px;
+}
+section .header_container{
+    padding: 30px 0px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section .header_container .logo{
+    font-size: 40px;
+    font-weight: 800;
+}
+section .header_container .menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .header_container .menu ul li{
+    margin: 0px 5px;
+}
+section .header_container .menu ul li a{
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.hero_section .div_section{
+    width: 100%;
+    background-color: white;
+    padding: 20px 80px;
+}
+
+.hero_section .div_section h1{
+    padding: 20px 0px;
+}
+.hero_section .div_section p{
+    padding: 20px 0px;
+}
+.hero_section .div_section button{
+    background-color: rgb(137, 137, 185);
+    padding: 10px 15px;
+    border-radius: 10px; 
+}
+.hero_section .div_section button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px rgb(137, 137, 185);
+}
+.cards_section{
+    background-color: rgb(160, 144, 144);
+    padding: 50px 0px;
+}
+
+.cards_section .cards_headings{
+    /* padding: 20px; */
+    padding: 20px 80px;
+    padding-bottom: 40px;
+   
+}
+.cards_section .cards_headings h2{
+    padding: 10px 0px;
+}
+.cards_section .cards .cards_container{
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.cards_section .cards .cards_container .single_cards{
+    padding: 20px 0px;
+    width: 20%;
+    height: 300px;
+    border: 1px solid rgb(250, 246, 246);
+    background-color: white;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.cards_section .cards .cards_container .single_cards p{
+    padding: 10px 10px;
+}
+
+.cards_section .cards .cards_container .single_cards button {
+    padding: 10px 15px;
+    background-color: lightgray;
+    border: 1px lightgrey;
+}
+
+.cards_section .cards .cards_container .single_cards button a{
+    color: black;
+}
+
+ .about_section #about_section .container .about_img{
+    width: 45%;
+}
+
+
+.about_section{
+    height: 469px;
+    padding: 44px;  
+}
+
+.about_section .container{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.about_section .container .about_text h2{
+    height: 64px;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.about_section .container .about_text p{
+    /* height: 300px; */
+    /* width: 1000px; */
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about_section .container .about_text button{
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.about_section .container .about_text button > a{
+    text-decoration: none;
+    padding: 20px 10px;
+    color: white;
+}
+
+
+.footer_section{
+    background-color: lightgray;
+    padding: 44px;
+    color: black;
+}
+
+.footer_section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_section .container div > p{
+    height: 100px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer_section .container nav ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_section .container nav ul li{
+    list-style: none;
+}
+
+.footer_section .container nav ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
